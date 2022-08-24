@@ -15,3 +15,8 @@ variables:
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 769301ee8ef5bd8d370e911fa90969e7745d1676
