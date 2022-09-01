@@ -5,7 +5,7 @@
 <section class="intro">
     <div class="container">
         <img class="title" src="/images/space-game-title.svg" alt="Space Game">
-        <p>Welcome to the offical Space Game site!</p>
+        <p>Welcome to the official Space Game site!</p>
     </div>
 </section>
 <section class="download">
@@ -73,7 +73,7 @@
                             <div class="col-sm-4 score-data">
                                 <div style="text-align: left; margin-left: 100px;">
                                     <partial name="Profile"
-                                model="new ProfileViewModel { Profile = score.Profile, Rank = (rank - 1).ToString() }" />
+                                    model="new ProfileViewModel { Profile = score.Profile, Rank = (rank - 1).ToString() }" />
                                     <a href="" data-toggle="modal" data-target="#profile-modal-@((rank - 1).ToString())">
                                         <img class="avatar" src="@score.Profile.AvatarUrl" alt="@score.Profile.UserName">
                                         <div class="score-data username">
